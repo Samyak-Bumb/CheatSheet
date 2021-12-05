@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Created/Designed By Samyak Bumb -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/prism.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="20*20" href="img/samyak.png">
+    <title>CheatSheet By Samyak</title>      
+</head>
+<body>
+   <!-- git log -->
+    <nav>
+        <span class="logo"> <img src="img/copy.png" alt="Logo"> </span>
+        <div class="content">
+        This Git CheatSheet By Samyak
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li>
+               <b>Basic / Important</b>
+               <p>Present Working Directory</p>
+               <pre class="language-js"><code>pwd</code></pre>
+
+               <p>List Content</p>
+               <pre class="language-js"><code>ls</code></pre>
+
+               <p>Change Directory</p>
+               <pre class="language-js"><code>cd</code></pre>
+            </li>
+
+            <li>
+               <b>Initializing a Repository</b>
+                <pre class="language-js"><code>git init</code></pre>
+            </li>
+
+            <li>
+               <b>Viewing the status</b>
+               <p>Full status</p>
+               <pre class="language-js"><code>git status</code></pre>
+               
+               <p>Short status</p>
+               <pre class="language-js"><code>git status -s</code></pre>
+            </li>
+
+            <li>
+               <b>Committing the staged files</b>
+               <p>Opens the default editor to type a long message</p>
+               <pre class="language-js"><code>git commit</code></pre>
+               
+               <p>Commits with a one-line message</p>
+               <pre class="language-js"><code>git commit -m “Message” .</code></pre>
+            </li>
+
+            <li>
+               <b>Staging files</b>
+               <p>Stages the current directory and all its content</p>
+               <pre class="language-js"><code>git add .</code></pre>
+
+               <p>OR</p>
+               <pre class="language-js"><code>git add --a</code></pre>
+
+               <P>Stages a single file</P>
+               <pre class="language-js"><code>git add file.js</code></pre>
+
+               <P>Stages with a pattern</P>
+               <pre class="language-js"><code>git add *.js</code></pre>
+            </li>
+
+            <li>
+               <b>Renaming files</b>
+               <pre class="language-js"><code>git mv file.js file.txt</code></pre>
+            </li>
+
+            <li>
+               <b>Removing files</b>
+               <pre class="language-js"><code>git rm file.txt</code></pre>
+            </li>
+        </ol>
+    </div>
+    <script src="js/prism.js"></script>
+</body>
+</html>
